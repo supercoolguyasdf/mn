@@ -1,0 +1,23 @@
+import matplotlib.pyplot as plit
+import math
+dumbpoints = []
+stupidpoints = []
+for i in range(1000):
+    dumbpoints.append(-3 +(i*0.006))
+    stupidpoints.append(dumbpoints[i]**2)
+plit.plot(dumbpoints, stupidpoints)
+
+plit.show()
+
+
+
+
+candy = ["Nerds Clusters", "Nerds Big Chewy", "Nerds", "Nerds Dual"]
+
+numbers = [100, 50, 25, 15]
+
+
+
+plit.bar(candy, numbers)
+
+plit.show()
